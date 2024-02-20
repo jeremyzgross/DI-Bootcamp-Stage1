@@ -1,4 +1,8 @@
-.container{
+body {
+    margin: 0px;
+}
+
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -6,12 +10,22 @@
 
 h1 {
     font-family: fantasy;
-    font-size: 1em;
+    font-size: 3em;
     border-bottom: 2px solid pink;
-    width: 100px;
-    text-align: left}
+    border-right: 2px solid pink;
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 5px #888888;
+    margin-top: 10px;
+}
 
 img {
-    width: 100 px;
-    height: 100 px;
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
